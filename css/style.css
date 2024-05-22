@@ -1,0 +1,511 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.header{
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    row-gap: 20px;
+}
+
+.btn-bangun {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 5px;
+    row-gap: 20px;
+}
+
+
+
+.btn-bangun button {
+    height: 50px;
+    color: white;
+    background-color: darkblue;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+/* SECTION LUAS SEGITIGA START */
+.section-segitiga {
+    margin: 20px;
+    max-width: 100%;
+    background-color: rgb(231, 229, 229);
+}
+
+.header-luas-segitiga {
+    display: flex;
+    background-color: darkblue;
+    color: white;
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.content-segitiga {
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.img-segitiga {
+    display: flex;
+    justify-content: center;
+}
+
+.img-segitiga img {
+    height: 50%;
+    width: 50%;
+}
+
+.rumus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    row-gap: 20px;
+}
+
+.rumus p {
+    font-size: large;
+    font-weight: 700;
+}
+
+.sub-rumus {
+    display: flex;
+    justify-content: center;
+}
+
+.sub-rumus p {
+    padding: 10px;
+}
+
+.header-hasil-luas-segitiga {
+    display: flex;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.input-segitiga {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.input-segitiga input {
+    height: 30px;
+}
+
+.hasil-segitiga {
+    height: 100px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-hitung {
+    height: 50px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn1 {
+    width: 100px;
+    height: 50px;
+    color: white;
+    background-color: darkblue;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.btn2 {
+    width: 100px;
+    height: 50px;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+    border-radius: 10px;
+}
+/* SECTION LUAS SEGITIGA END */
+
+/* SECTION KELILING SEGITIGA START */
+.section-segitiga2 {
+    
+    margin: 20px;
+    max-width: 100%;
+    background-color: rgb(231, 229, 229);
+    margin-bottom: 100px;
+}
+
+.header-keliling-segitiga {
+    margin-top: 100px;
+    display: flex;
+    background-color: darkblue;
+    color: white;
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.content-segitiga2 {
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.img-segitiga2 {
+    display: flex;
+    justify-content: center;
+}
+
+.img-segitiga2 img {
+    height: 50%;
+    width: 50%;
+}
+
+.rumus2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    row-gap: 20px;
+}
+
+.rumus2 p {
+    font-size: large;
+    font-weight: 700;
+}
+
+.sub-rumus2 {
+    display: flex;
+    justify-content: center;
+}
+
+.sub-rumus2 p {
+    padding: 10px;
+}
+
+.header-hasil-keliling-segitiga {
+    display: flex;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.input-segitiga2 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.input-segitiga2 input {
+    height: 30px;
+}
+
+.hasil-segitiga2 {
+    height: 100px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-hitung2 {
+    height: 50px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn1 {
+    width: 100px;
+    height: 50px;
+    color: white;
+    background-color: darkblue;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.btn2 {
+    width: 100px;
+    height: 50px;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+    border-radius: 10px;
+}
+/* SECTION KELILING SEGITIGA END */
+
+
+/* SECTION LUAS JAJAR GENJANG START */
+.section-jajargenjang {
+    margin: 20px;
+    max-width: 100%;
+    background-color: rgb(231, 229, 229);
+}
+
+.header-luas-jajargenjang {
+    display: flex;
+    background-color: darkblue;
+    color: white;
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.content-jajargenjang {
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.img-jajargenjang {
+    display: flex;
+    justify-content: center;
+}
+
+.img-jajargenjang img {
+    height: 50%;
+    width: 50%;
+}
+
+.rumusj {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    row-gap: 20px;
+}
+
+.rumusj p {
+    font-size: large;
+    font-weight: 700;
+}
+
+.sub-rumusj {
+    display: flex;
+    justify-content: center;
+}
+
+.sub-rumusj p {
+    padding: 10px;
+}
+
+.header-hasil-luas-jajargenjang {
+    display: flex;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.input-jajargenjang {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.input-jajargenjang input {
+    height: 30px;
+}
+
+.hasil-jajargenjang {
+    height: 100px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-hitung {
+    height: 50px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn1 {
+    width: 100px;
+    height: 50px;
+    color: white;
+    background-color: darkblue;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.btn2 {
+    width: 100px;
+    height: 50px;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+    border-radius: 10px;
+}
+/* SECTION LUAS JAJAR GENJANG END */
+
+/* SECTION KELILING JAJAR GENJANG START */
+.section-jajargenjang2 {
+    margin: 20px;
+    max-width: 100%;
+    background-color: rgb(231, 229, 229);
+    margin-bottom: 100px;
+}
+
+.header-keliling-jajargenjang {
+    margin-top: 100px;
+    display: flex;
+    background-color: darkblue;
+    color: white;
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.content-jajargenjang2 {
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.img-jajargenjang2 {
+    display: flex;
+    justify-content: center;
+}
+
+.img-jajargenjang2 img {
+    height: 50%;
+    width: 50%;
+}
+
+.rumusj2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    row-gap: 20px;
+}
+
+.rumusj2 p {
+    font-size: large;
+    font-weight: 700;
+}
+
+.sub-rumusj2 {
+    display: flex;
+    justify-content: center;
+}
+
+.sub-rumusj2 p {
+    padding: 10px;
+}
+
+.header-hasil-keliling-jajargenjang {
+    display: flex;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.input-jajargenjang2 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.input-jajargenjang2 input {
+    height: 30px;
+}
+
+.hasil-jajargenjang2 {
+    height: 100px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-hitung2 {
+    height: 50px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn1 {
+    width: 100px;
+    height: 50px;
+    color: white;
+    background-color: darkblue;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.btn2 {
+    width: 100px;
+    height: 50px;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+    border-radius: 10px;
+}
+/* SECTION KELILING JAJAR GENJANG END */
+
+/* FOOTER START */
+.footer {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+}
+.footer a {
+    color: #333;
+    margin: 0 20px;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+/* FOOTER END */
+
+
